@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: black;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header_naw>ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+
+ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: left;
+    transition: all 0.2s;
+
+
+}
+
+
+ul>li>a:hover {
+    color: gainsboro;
+    transition: all 0.2s;
+}
+
+
+section h1 {
+    width: 743px;
+    height: 186px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+
+
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 500;
+    line-height: 93px;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15%;
+    row-gap: 100px;
+    margin: 10px 0px 40px 150px;
+}
+
+.card{
+    width: 20%;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    color:black;
+}
+
+.card img{
+    width: 100%;
+}
